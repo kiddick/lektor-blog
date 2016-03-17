@@ -1,0 +1,180 @@
+body {
+    font-family : "Source Sans Pro",Verdana,sans-serif;
+    background-color : #d4dcff;
+    width : 840px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#content {
+    background-color: #fbf9ff;
+    padding: 20px 20px;
+    width: 800px;
+}
+
+img {
+    max-width: 90%;
+}
+
+a {
+    font-family: Arial;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+a:hover, a:active {
+    color: red;
+    outline: none;
+}
+
+p a {
+    background-color: #DCDCDC;
+}
+
+p a:hover, p a:active {
+    color: blue;
+}
+
+.published div {
+    width: 220px;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+}
+
+#about {
+    margin: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#banner {
+    padding: 0;
+    margin: 0;
+    background-color: #011627;
+    border-bottom: 5px solid #1b998b;
+}
+
+#banner ul {
+    padding: 0;
+    margin: 0;
+}
+
+#banner ul li div {
+    text-align: right;
+    width: 690px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+#banner ul li div ul li{
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+}
+
+#banner ul li {
+    display: inline-block;
+}
+
+#homepage {
+    padding-left: 10px;
+    color: white;
+}
+
+#post-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+hr {
+    background-color: #afafaf;
+    border: medium none;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.social a {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    font-size: 1.7em;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 3px;
+}
+
+.social a:hover, .social a:active {
+    -webkit-transform: translateY(-7px);
+    transform: translateY(-7px);
+}
+
+.btn_wrapper {
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+    padding: 0;
+}
+
+.btn {
+    padding: 0.4em 0.6em;
+    margin-right: 10px;
+    font-size: 0.9em;
+    border-radius: 0.25em;
+    background-color: #9da3a4;
+    font-style: italic;
+    /*font-family: cursive;*/
+    color: white;
+}
+
+.btn:link, .btn:visited {
+    color: white;
+}
+
+.btn:hover, .btn:active {
+    background-color: #011627
+}
+
+/*oct cat*/
+.github-corner {
+    top: 0;
+    right: 0;
+    position: fixed;
+}
+
+
+.github-corner:hover .octo-arm {
+    animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+    0%,
+    100% {
+        transform: rotate(0)
+    }
+    20%,
+    60% {
+        transform: rotate(-25deg)
+    }
+    40%,
+    80% {
+        transform: rotate(10deg)
+    }
+}
+
+@media (max-width:500px) {
+    .github-corner:hover .octo-arm {
+        animation: none
+    }
+    .github-corner .octo-arm {
+        animation: octocat-wave 560ms ease-in-out
+    }
+}

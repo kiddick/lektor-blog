@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% from "macros/blog.html" import render_blog_post %}
+{% block title %}xi blog | {{ this.title }}{%endblock%}
+{% block body %}
+<section id="content" class="body">
+  {{ render_blog_post(this) }}
+</section>
+{% endblock %}
