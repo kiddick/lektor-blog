@@ -13,7 +13,7 @@ Today we will try to create a simple CSS button to blog. It will be used as butt
 
 It should be look like:
 
-![design](images/2015_12_20_1.png)
+<img src="button1.png" alt="button">
 
 Cool! Let's start.
 First of all we need to specify some html element for that. It could be `div` or may be `a`. Let's pick `a` and create new class for that.
@@ -53,6 +53,6 @@ Applied some formatting to that `div`. And Voila! Now `a` have moved to the righ
 At least need to add some styling according to my blog color scheme.
 Result:
 
-![design](images/2015_12_20_2.png)
+<img src="button2.png" alt="button">
 
 Enjoy!

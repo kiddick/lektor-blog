@@ -5,8 +5,24 @@
 {% block body %}
 <section id="content" class="body">
   {% for child in this.pagination.items %}
-    {{ render_blog_post(child, from_index=true) }}
+  <div class="blog-snippet">
+    <h2><a href="{{ child|url }}">{{ child.title }}</a></h2>
+    <time class="published">
+      <div>
+        {{ child.pub_date }}
+      </div>
+    </time>
+    <p class="summary">
+      {{ child.summary }}
+    </p>
+    <div class="btn_wrapper">
+        <a class="btn" href="{{ child|url }}">Read more</a>
+    </div>
+  </div>
+  <hr>
   {% endfor %}
-  {{ render_pagination(this.pagination) }}
+  {% if this.pagination.pages > 1 %}
+    {{ render_pagination(this.pagination) }}
+  {% endif %}
 </section>
 {% endblock %}
