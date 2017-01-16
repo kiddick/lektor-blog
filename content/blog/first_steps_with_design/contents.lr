@@ -27,14 +27,14 @@ It is possible to specify margin for each side of and element separately.
 
 I have faced with:
 
-```
+```css
 margin: 0 auto;
 ```
 and was not sure how I shroud interpret that.
 
 But according to example from documentation:
 
-```
+```css
 margin: 25px 50px;
     top and bottom margins are 25px
     right and left margins are 50px
@@ -56,7 +56,7 @@ So if we want to center element horizontally we need additionaly set width to el
 Some information about CSS units for expressing a length:
 [CSS Units](http://www.w3schools.com/cssref/css_units.asp)
 
-```
+```css
 em
 Relative to the font-size of the element (2em means 2 times the size of the current font)
 ```
@@ -73,7 +73,7 @@ Border settings
 
 Shorten code to set up all properties simultaneously:
 
-```
+```css
     border-width
     border-style (required)
     border-color

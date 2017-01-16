@@ -1,2 +1,5 @@
 [project]
 name = xi
+
+[servers.ghpageshttps]
+target = ghpages+https://kiddick/kiddick.github.io
