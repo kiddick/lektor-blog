@@ -22,5 +22,6 @@ Temporary solution for markdown-highlighter plugin:
 
 To deploy via https on github pages:
 ```
-lektor deploy ghpageshttps
+lektor build && lektor deploy ghpageshttps
+lektor build && lektor deploy ghpages
 ```
