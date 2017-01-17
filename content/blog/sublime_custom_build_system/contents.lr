@@ -2,7 +2,6 @@ title: Custom Sublime Text build system for python on Fedora 22
 ---
 pub_date: 2015-11-09
 ---
-Modified: 2015-11-09
 Category: Sublime Text
 Tags: sublime text, build system
 ---
@@ -20,5 +19,5 @@ Configuration is below.
 {
     "cmd": ["gnome-terminal", "-x", "bash", "-c", "python $file; read"], # run new terminal
     "shell": false,
-} 
+}
 ```
